@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="fw-chap-5-challenge/styles.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="heading">
+            <h2>Sign in</h2>
+            <form action="/login" method="POST">
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input  name="username" type="text" placeholder="input your username" type="text" class="form-control">
+                </div>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input name="password" type="password" placeholder="input your password" id="myInput" type="password" class="form-control" >
+                </div>
+                <input type="checkbox" onclick="myFunction()" >Show Password <br>
+                <div>
+                    <input type="submit" class="float" value="login">
+                    <a href="/signup"> <input type="button" value="sign up"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

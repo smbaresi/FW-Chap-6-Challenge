@@ -1,0 +1,636 @@
+body,
+html {
+    color: white;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    margin: 0px;
+}
+
+#main-background {
+    background-image: url(../images/main-bg.jpg);
+    background-color: #cccccc;
+    height: 100vh !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#game-background {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/the-games-bg.jpg);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#features-background {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/features.jpg);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#requirements-background {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/requirements.png);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#topscore-background {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/top-score-bg.png);
+    background-color: black;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#newsletter-background {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/newsletter.jpg);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.navbar-default{
+    background-color: black !important;
+    opacity:0.6 !important;
+}
+
+.nav-logo{
+    margin-right: 200px;
+    font-size: 24px;
+}
+
+.nav-spacing{
+        margin-right: 100px;
+}
+
+.nav-link{
+    margin-right: 50px;
+    font-size: 12px;
+}
+
+.main h1 {
+    margin-top: 25vh;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main h2 {
+    margin-top: 5vh;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.main a {
+    margin-top: 4vh;
+    padding: 10px 50px 10px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.arrow-main {
+    position: absolute;
+    bottom: 5vh;
+    padding: 0px;
+    left: 45%;
+}
+
+.arrow-main h3 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.arrow-main .icon {
+    width: 50px;
+    margin: auto;
+}
+
+.arrow-main .icon path {
+    fill: transparent;
+    stroke-width: 0.5;
+    stroke: white;
+}
+
+.arrow-main .icon.caretdown path {
+    stroke-dasharray: 40;
+    stroke-dashoffset: 0;
+}
+
+.arrow-main.icon.caretdown path:hover {
+    -webkit-animation: caretdown 1s linear forwards;
+    animation: caretdown 1s linear forwards;
+}
+
+.carousel .item {
+    height: 300px;
+  }
+  
+.item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+}
+
+#carousel-game {
+    width: 70%;
+}
+#carousel-game {
+    width: 858px;
+    height: 477px;
+    left: 453px;
+    top: 318.7px;
+}
+
+.align-carousel{
+    padding-top: 5vh;
+    text-align: left;
+}
+
+.align-carousel h3{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.align-carousel h1{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.features .col-md-6 {
+    text-align: left;
+    margin-top: 30vh;
+}
+
+.features h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.features h4 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.features h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.features h2 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ffb548;
+    text-align: left;
+}
+
+.features p {
+    font-size: 16px;
+}
+
+.features .step {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.features .step .v-stepper {
+    position: relative;
+}
+
+.features .step .circle {
+    background-color: white;
+    border: 3px solid grey;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.features .step .line {
+    top: 20px;
+    left: 8px;
+    height: 100%;
+    position: absolute;
+    border-left: 3px solid white;
+}
+
+.features .step:last-child .line {
+    border-left: 3px solid white;
+    z-index: -1;
+}
+
+.features .step .content {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.features .step.completed .circle {
+
+
+    border-color: white;
+}
+
+.features .step.completed .line {
+    border-left: 3px solid white;
+}
+
+.features .step.active .circle {
+
+    border-color: white;
+    background-color: transparent;
+}
+
+.features .step.empty .circle {
+    visibility: hidden;
+}
+
+.features .step.empty .line {
+    top: 0;
+    height: 150%;
+}
+
+.requirements table {
+border: 1px solid grey;
+}
+
+.requirements h1 {
+    text-align: left;
+    padding-bottom: 5vh;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.requirements h5 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+.requirements h2 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+color: #FFB548;
+}
+
+.requirements p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+        
+.topscores .container {
+    position: relative;
+}
+    
+.topscores .topscoresleft {
+    position: absolute; 
+    top: 150px;
+    width: 350px;
+    text-align: left;
+ }
+    
+.topscores .topscoresleft {
+    margin-bottom: 2vh;
+}
+
+.topscores .topscoresleft h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.topscores .topscoresleft h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.topscores .topscoresleft a {
+    margin-top: 5vh;
+    font-weight: bold;
+    padding: 10px 50px;
+}
+
+.topscores .twittercards .card {
+    border: none;
+}
+
+.topscores .twittercards .card-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: none;
+    text-align: left;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.topscores .twittercards .card-header .profilepic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 2px #ffc107;
+    box-shadow: 5px 2px #ffc107;
+}
+
+.topscores .twittercards .card-header h3 {
+    font-size: 12px;
+    color: #ffc107;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.topscores .twittercards .card-header h4 {
+    font-size: 10px;
+    color: grey;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.topscores .twittercards .card-header .twitterlogo {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.topscores .twittercards .card-body {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.topscores .twittercards h5 {
+    font-size: 12px;
+}
+
+.topscores .twittercards p {
+    font-size: 10px;
+    color: grey;
+}
+    
+.newsletter h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.newsletter h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.newsletter p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.newsletter form {
+    position: relative;
+}
+
+.newsletter form input[type="text"] {
+    border: 1px solid grey;
+    font-size: 20px;
+    color: #ffc107;
+}
+
+.newsletter form p {
+    color: grey;
+    position: absolute;
+    font-size: 10px;
+    left: 16px;
+    top: 1px;
+}
+
+.newsletter form button {
+    padding: 9px;
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+    color: #ffb548 !important;
+}
+
+:-ms-input-placeholder {
+    color: #ffb548 !important;
+}
+
+::-ms-input-placeholder {
+    color: #ffb548 !important;
+}
+
+::placeholder {
+    color: #ffb548 !important;
+}
+
+.navigation {
+    background-color: black;
+    height: 40vh;
+    padding: 0;
+}
+
+.navigation a {
+    font-family: "Bebas Neue", cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 0 2vw;
+    word-break: keep-all;
+}
+
+.navigation a span {
+    white-space: nowrap;
+    -webkit-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+
+.navigation a span:hover {
+    -webkit-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+    color: #ffc107 !important;
+}
+
+.navigation .socialmedialogo {
+    width: 100% !important;
+}
+
+.navigation .socialmedialogo .icon path {
+    fill: white;
+    stroke-width: 0.5;
+    stroke: white;
+}
+
+.navigation .socialmedialogo .icon.facebook path {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 0;
+}
+
+.navigation .socialmedialogo .icon.facebook path:hover {
+    -webkit-animation: facebookicon 1s linear forwards;
+    animation: facebookicon 1s linear forwards;
+}
+
+.navigation .socialmedialogo .icon.twitter path {
+    stroke-dasharray: 74;
+    stroke-dashoffset: 0;
+}
+
+.navigation .socialmedialogo .icon.twitter path:hover {
+    -webkit-animation: twittericon 1s linear forwards;
+    animation: twittericon 1s linear forwards;
+}
+
+.navigation .socialmedialogo .icon.youtube path {
+    fill: #FF1313;
+    stroke: #FF1313;
+    stroke-dasharray: 77;
+    stroke-dashoffset: 0;
+}
+
+.navigation .socialmedialogo .icon.youtube path:hover {
+    -webkit-animation: youtubeicon 1s linear forwards;
+    animation: youtubeicon 1s linear forwards;
+}
+
+.navigation .socialmedialogo .icon.twitch path {
+    stroke-dasharray: 70;
+    stroke-dashoffset: 0;
+}
+
+.navigation .socialmedialogo .icon.twitch path:hover {
+    -webkit-animation: twitchicon 1s linear forwards;
+    animation: twitchicon 1s linear forwards;
+}
+
+.navigation hr {
+    border-top: 1px solid grey;
+}
+
+.navigation .footer p {
+    font-size: 14px;
+    color: grey;
+}
+
+.navigation .footer .col-lg-6 {
+    text-align: center;
+}
+
+.navigation .footer a {
+    margin: 0;
+}

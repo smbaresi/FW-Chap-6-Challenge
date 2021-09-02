@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Pages</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>user</h1>
+            <h2> <%= username || "login" %> </h2>
+        </div>
+
+        <div>
+            <h1>user biodata</h1>
+            <form action="/profile" method="POST">
+                <input type="text" name="description" class="float" placeholder="input your biodata" >
+                <input class="button" type="submit" value="create" />
+            </form><br>
+            <form action="/profile" method="PUT">
+                <input type="text" name="description" class="float" placeholder="change your biodata" >
+                <input class="button" type="submit" value="change" />
+            </form><br>
+            <form action="/profile" method="GET">
+                <input type="text" name="description" class="float" placeholder="see your current biodata" >
+                <input class="button" type="submit" value="read" />                
+            </form><br>
+            <form action="/profile" method="DELETE">
+                <input type="text" name="description" class="float" placeholder="delete by user id" >
+                <input class="button" type="submit" value="delete" />                
+            </form>
+        </div>
+        <br>
+        <br>
+        <h1>user history</h1>
+        <% hist.forEach(function(h){ %>
+        <div>
+            <h2><%= h.win %> times Win</h2>
+            <h2><%= h.lose %> times Lose</h2>
+        </div>
+        <% }) %>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="fw-chap-6-challenge/styles.css">
+</head>
+
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Username</th>
+                <th scope="col">Password</th>
+                <a href="/home"> <input class="topright" type="button" value="back"></a>
+                
+            </tr>
+            <% data.forEach(function(d){ %>
+            <tr>
+                <td><%= d.user_game_id %></td>
+                <td><%= d.user_name %></td>
+                <td><%= d.user_password %></td>
+                 <td><%= d.role %></td>
+            </tr>
+            <% }) %>
+        </thead>
+    </table>
+</body>
+
+</html>

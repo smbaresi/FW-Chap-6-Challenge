@@ -1,0 +1,130 @@
+body,
+html {
+  background-color: #9c835f;
+  font-family: open Sans;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.arrow {
+  font-size: 72px;
+  letter-spacing: 0.1em;
+  color: #724c21;
+}
+
+h1 {
+  font-size: 36px;
+  color: #f9b23d;
+  text-align: center;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-decoration: none;
+}
+
+h4 {
+  position: relative;
+  font-size: 144px;
+  color: #BD0000;
+  text-align: center;
+}
+
+.batu {
+  width: 134px;
+  height: 128px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.kertas {
+  width: 115px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.gunting {
+  width: 134px;
+  height: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.refresh {
+  width: 77px;
+  height: 71px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.refresh:hover{
+  animation:spin 4s linear infinite;
+  transition-duration: 4s;
+}
+
+@keyframes spin { 
+  100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } 
+  }
+
+.batu:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.kertas:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.gunting:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.greyBox-js{
+  background-color: #C4C4C4;
+  padding: 10px;
+  border-radius: 15%;
+}
+
+.winlosebackground-js{
+  background-color: #4C9654;
+  font-size: 38px;
+  color: #C4C4C4;
+  transform: rotateZ(-25deg);
+  transition-property: (img);
+}
